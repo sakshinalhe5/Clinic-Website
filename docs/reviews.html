@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Reviews - Dr. Clinic</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Dr. Krishna Chiluvery Clinic</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+       <a href="reviews.html">Reviews</a>
+      <a href="appointment.html">Appointment</a>
+      <a href="Thankyou.html">Thankyou</a>
+
+    </nav>
+  </header>
+
+  <section class="reviews-section">
+    <h1> Patient Reviews</h1>
+
+    <!-- Review Form -->
+    <form id="reviewForm">
+      <input type="text" id="reviewerName" placeholder="Your Name" required>
+      <textarea id="reviewText" placeholder="Write your review..." required></textarea>
+      <button type="submit">Submit Review</button>
+    </form>
+
+    <!-- Display Reviews -->
+    <div id="reviewsList"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 Dr. Krishna.V.Chiluvery Clinic| All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
